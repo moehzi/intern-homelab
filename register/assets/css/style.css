@@ -56,7 +56,7 @@ nav {
 
 .right-item button.btn-reg {
 	color: #FDDB3A;
-	filter: drop-shadow(6px 6px 50px rgba(117, 117, 117, 0.6));
+	filter: drop-shadow(0px 20px 25px #FED8AD);
 	background-color: #ffff;
 	font-weight: 500;
 }
@@ -124,13 +124,14 @@ button.btn {
 	width: 12%;
 	font-size: 25px;
 	box-shadow: -6px 15px 50px 0px rgba(0, 0, 0, 0.16);
+	filter: drop-shadow(0px 20px 25px #FED8AD);
 	cursor: pointer;
 }
 
 .socmed-bg:hover img {
 	height: 50px;
 	width: 50px;
-	box-shadow: -6px 15px 50px rgba(0, 0, 0, 0.161);
+
 }
 
 .socmed img {
@@ -179,6 +180,7 @@ button.btn {
 .input input:focus {
 	background-color: #FFFED7;
 	filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.161));
+	color: #5D5D5D;
 }
 
 .checkbox {
@@ -284,4 +286,23 @@ button.btn-register:active {
 
 button.btn-register:hover {
 	opacity: 0.8;
+}
+
+.login-desc {
+	font-weight: 500;
+}
+
+.login-desc p {
+	color: #727272;
+}
+
+.login-desc p a {
+	text-decoration: none;
+	color: #FF9F31;
+}
+
+img.illu-2 {
+	bottom: 0;
+	right: 0;
+	position: absolute;
 }
