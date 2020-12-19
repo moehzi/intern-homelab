@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-	padding: 1.5rem 7.5rem;
+	padding: 1.5rem 6.5rem;
 }
 
 .asset-1 {
@@ -87,7 +87,7 @@ button.btn {
 
 .line {
 	border: 2px solid #FF9F31;
-	width: 8%;
+	width: 18%;
 	margin-right: 2rem;
 }
 
@@ -98,13 +98,21 @@ button.btn {
 	line-height: 0;
 }
 
+.hero {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+
 .reg-socmed {
 	display: flex;
 	align-items: center;
 }
 
 .socmed-bg {
-	width: 10%;
+	width: 20%;
 	margin-right: 2.5rem;
 	padding: 1.25rem 0rem;
 	border-radius: 25px;
@@ -121,7 +129,7 @@ button.btn {
 }
 
 .socmed-bg:hover {
-	width: 12%;
+	width: 22%;
 	font-size: 25px;
 	box-shadow: -6px 15px 50px 0px rgba(0, 0, 0, 0.16);
 	filter: drop-shadow(0px 20px 25px #FED8AD);
@@ -139,8 +147,8 @@ button.btn {
 }
 
 .form-input {
-	width: 40%;
 	color: #AAAAAA;
+	width: 85%;
 }
 
 .form-2-col {
@@ -298,11 +306,8 @@ button.btn-register:hover {
 
 .login-desc p a {
 	text-decoration: none;
-	color: #FF9F31;
+	color: #FDDB3A;
+	font-weight: 500;
 }
 
-img.illu-2 {
-	bottom: 0;
-	right: 0;
-	position: absolute;
-}
+img.illu-2 {}
