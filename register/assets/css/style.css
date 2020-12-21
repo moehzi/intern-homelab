@@ -29,42 +29,47 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: red;
+
 }
 
-
-
-
-
-.left-item {
-	width: 100%;
+.nav-links {
 	display: flex;
+	justify-content: space-around;
+	width: 40%;
 	align-items: center;
-	justify-content: center;
-	background-color: orange;
+}
+
+.reg {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+	align-items: center;
+}
+
+.right-item .reg a {
+	color: #FDDB3A;
 }
 
 
-.left-item ul {
-	width: 100%;
-	background-color: yellow;
+
+
+
+.right-item ul {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-.left-item ul a {
+.right-item ul a {
 	text-decoration: none;
 	color: #5D5D5D;
 }
 
 .right-item {
-	width: 50%;
-	background-color: green;
+	width: 100%;
 }
 
 .right-item a {
-	margin-right: 5.5rem;
 	color: #FDDB3A;
 	text-decoration: none;
 	font-weight: 500;
@@ -299,7 +304,7 @@ button.btn-primary {
 }
 
 button.btn-register {
-	width: 50%;
+	width: 350px;
 	margin: 1.5rem 0;
 
 }
@@ -332,9 +337,28 @@ button.btn-register:hover {
 	width: 100%;
 }
 
+.burger div {
+	width: 28px;
+	height: 3px;
+	background-color: #FF9F31;
+	margin: 5px;
+	border-radius: 10px;
+	transition: transform 0.4s ease-out;
+	display: none;
+}
+
 @media only screen and (max-width:1024px) {
 	.right-item {
 		width: 70%;
+	}
+
+	.nav-links {
+		width: 55%;
+
+	}
+
+	.reg {
+		width: 50%;
 	}
 
 	.hero {
@@ -344,4 +368,37 @@ button.btn-register:hover {
 	.illu-2 {
 		width: 70%;
 	}
+}
+
+@media only screen and (max-width:768px) {
+
+
+
+	.left-item ul {
+		display: none;
+	}
+
+	.reg {
+		display: none;
+	}
+
+	.nav-links {
+		display: none;
+	}
+
+	.burger div {
+		display: block;
+	}
+
+	.left-item {
+		width: auto;
+	}
+
+	.form-reg {
+		width: 100%;
+	}
+
+
+
+
 }
