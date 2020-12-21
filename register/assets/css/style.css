@@ -417,6 +417,45 @@ button.btn-register:hover {
 	}
 }
 
+@media only screen and (max-width:568px) {
+	body {
+		font-size: 16px;
+	}
+
+	.container-check {
+		font-size: 18px;
+	}
+
+	.reg-socmed {
+		flex-direction: column;
+
+	}
+
+	.input input {
+		padding: 0.5rem 0.5rem;
+		border-radius: 25px;
+		border: 1px solid #C4C4C4;
+		width: 100%;
+		font-size: 16px;
+	}
+
+	.input-first-name {
+		margin-right: 0.25rem;
+	}
+
+	.input-password-1 {
+		margin-right: 0.25rem;
+	}
+
+	button.btn-register {
+		width: 250px;
+		font-size: 16px;
+
+	}
+
+
+}
+
 .nav-active {
 	transform: translateX(0%);
 }
