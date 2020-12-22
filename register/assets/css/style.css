@@ -430,10 +430,14 @@ button.btn-register:hover {
 
 
 	.socmed-bg {
-
 		margin-right: 0.5rem;
 		padding: 0.5rem 0rem;
+	}
 
+	.socmed img {
+		margin-right: 0.25rem;
+		width: 30px;
+		height: 30px;
 	}
 
 	.input input {
@@ -448,6 +452,11 @@ button.btn-register:hover {
 		margin-right: 0.25rem;
 	}
 
+	.input-name p {
+		width: 100%;
+		margin-left: 0;
+	}
+
 	.input-password-1 {
 		margin-right: 0.25rem;
 	}
@@ -456,6 +465,10 @@ button.btn-register:hover {
 		width: 250px;
 		font-size: 16px;
 
+	}
+
+	.form-input {
+		width: 100%;
 	}
 
 
