@@ -118,7 +118,7 @@ button.btn {
 	font-size: 64;
 	font-weight: 700;
 	color: #020202;
-	margin-bottom: 2.5rem;
+	margin-bottom: 3rem;
 }
 
 .txt-desc {
@@ -146,52 +146,9 @@ button.btn {
 	justify-content: space-between;
 }
 
-
-
-.reg-socmed {
-	display: flex;
-	align-items: center;
-	width: 100%;
-}
-
-.socmed-bg {
-	width: 160px;
-	margin-right: 2.5rem;
-	padding: 1rem 0rem;
-	border-radius: 25px;
-	border: 1px solid #AAAAAA;
-	color: #727272;
-	margin-bottom: 2rem;
-}
-
-.socmed {
-	display: flex;
-	line-height: 100%;
-	align-items: center;
-	justify-content: center;
-}
-
-.socmed-bg:hover {
-	width: 160px;
-	font-size: 25px;
-	box-shadow: -6px 15px 50px 0px rgba(0, 0, 0, 0.16);
-	filter: drop-shadow(0px 20px 25px #FED8AD);
-	cursor: pointer;
-}
-
-.socmed-bg:hover img {
-	height: 50px;
-	width: 50px;
-
-}
-
-.socmed img {
-	margin-right: 1rem;
-}
-
 .form-input {
 	color: #AAAAAA;
-	width: 85%;
+	width: 60%;
 }
 
 .form-2-col {
@@ -213,6 +170,7 @@ button.btn {
 	border: 1px solid #C4C4C4;
 	width: 100%;
 	font-size: 20px;
+	color: #AAAAAA;
 }
 
 .input p {
@@ -319,13 +277,25 @@ button.btn-primary {
 	color: #ffffff;
 	font-weight: 600;
 	background-color: #FDDB3A;
-	filter: drop-shadow(0px 20px 25px #FED8AD);
+	box-shadow: 0px 15px 50px #FDDB3A;
 
+
+}
+
+.btn-regg {
+	width: 100%;
+	text-align: center;
+	margin: 2.5rem 0;
+}
+
+.btn-regg button {
+	margin: auto;
+	align-self: center;
 }
 
 button.btn-register {
 	width: 350px;
-	margin: 1.5rem 0;
+	margin: auto;
 
 }
 
@@ -449,16 +419,7 @@ button.btn-register:hover {
 
 
 
-	.socmed-bg {
-		margin-right: 0.5rem;
-		padding: 0.5rem 0rem;
-	}
 
-	.socmed img {
-		margin-right: 0.25rem;
-		width: 30px;
-		height: 30px;
-	}
 
 	.input input {
 		padding: 0.5rem 0.5rem;
