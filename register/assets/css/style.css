@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/aa1ab415485e8dc1f047895eb75bfa25?family=URW+Geometric);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 * {
 	margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: 'URW Geometric';
+	font-family: 'Poppins';
 	font-size: 20px;
 	line-height: 34px;
 }
