@@ -8,7 +8,7 @@
 
 body {
 	font-family: 'Poppins';
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 34px;
 }
 
@@ -148,7 +148,7 @@ button.btn {
 
 .form-input {
 	color: #AAAAAA;
-	width: 60%;
+	width: 70%;
 }
 
 .form-2-col {
@@ -166,10 +166,10 @@ button.btn {
 
 .input input {
 	padding: 1rem 1rem;
-	border-radius: 25px;
+	border-radius: 20px;
 	border: 1px solid #C4C4C4;
 	width: 100%;
-	font-size: 20px;
+	font-size: 18px;
 	color: #AAAAAA;
 }
 
@@ -204,7 +204,7 @@ button.btn {
 	padding-left: 35px;
 	margin-bottom: 12px;
 	cursor: pointer;
-	font-size: 22px;
+	font-size: 18px;
 }
 
 /* Hide the browser's default checkbox */
@@ -307,6 +307,27 @@ button.btn-register:active {
 
 button.btn-register:hover {
 	opacity: 0.8;
+}
+
+.socmed {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 80%;
+	margin: auto;
+}
+
+.socmed-bg {
+	border: 1px solid #AAAAAA;
+	width: 80px;
+	height: 60px;
+	border-radius: 20px;
+	display: flex;
+}
+
+.socmed-bg img {
+	margin: auto;
+
 }
 
 .login-desc {
