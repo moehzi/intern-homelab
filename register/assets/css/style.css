@@ -102,8 +102,6 @@ nav {
 	font-weight: 500;
 }
 
-
-
 button.btn {
 	font-size: 18px;
 	font-family: 'Poppins';
@@ -346,6 +344,10 @@ button.btn-register:hover {
 	width: 100%;
 }
 
+.responsive-menu {
+	display: none;
+}
+
 .burger div {
 	width: 28px;
 	height: 3px;
@@ -353,6 +355,10 @@ button.btn-register:hover {
 	margin: 5px;
 	border-radius: 10px;
 	transition: transform 0.4s ease-out;
+	display: none;
+}
+
+.logo-responsive {
 	display: none;
 }
 
@@ -387,19 +393,44 @@ button.btn-register:hover {
 		overflow-x: hidden;
 	}
 
-	.links {
+	.responsive-menu {
+		display: block;
+	}
+
+	.burger {
+		cursor: pointer;
+	}
+
+	.reg,
+	.nav-links {
+		display: none;
+	}
+
+	.burger div {
+		display: block;
+	}
+
+	.responsive-menu {
+		display: flex;
 		position: absolute;
 		flex-direction: column;
 		justify-content: center;
-		background-color: #Ffffff;
-		width: 50%;
+		background-color: #5D5D5D;
+		width: 100%;
 		right: 0;
-		top: 12vh;
-		height: 50vh;
-		border-radius: 10px;
+		top: 5vh;
+		height: 32vh;
 		justify-content: space-around;
 		transform: translateX(100%);
 		transition: transform 0.5s ease-in;
+		padding: 1rem;
+
+	}
+
+	.responsive-menu a {
+		text-decoration: none;
+		color: #ffff;
+		border-bottom: 1px solid #ffffff;
 	}
 
 	.nav-links {
@@ -412,27 +443,69 @@ button.btn-register:hover {
 		height: 50%;
 	}
 
-
-	.burger div {
-		display: block;
+	nav {
+		width: 100%;
+		justify-content: space-between;
 	}
 
 	.left-item {
+		width: 60%;
+	}
+
+	.nav-links {
+		width: 100%;
+	}
+
+	.reg {
+		width: 50%;
+	}
+
+	.right-item {
 		width: auto;
 	}
 
 	.form-reg {
 		width: 100%;
+		margin-top: 4rem;
+		text-align: center;
 	}
 
-	.burger {
-		cursor: pointer;
+	.form-input {
+		margin: auto;
+		width: 80%;
 	}
+
+
 }
 
 @media only screen and (max-width:568px) {
 	body {
+		overflow-x: hidden;
 		font-size: 16px;
+	}
+
+	.logo-responsive {
+		display: block;
+		margin-left: 1rem;
+	}
+
+	.asset-1 {
+		display: none;
+	}
+
+	.illu-2 {
+		display: none;
+	}
+
+	nav {
+		width: 90%;
+		padding: 1rem;
+	}
+
+
+
+	.logo {
+		display: none;
 	}
 
 	.container-check {
