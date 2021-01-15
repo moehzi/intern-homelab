@@ -348,17 +348,13 @@ button.btn-register:hover {
 	display: none;
 }
 
-.burger div {
-	width: 28px;
-	height: 3px;
-	background-color: #FF9F31;
-	margin: 5px;
-	border-radius: 10px;
-	transition: transform 0.4s ease-out;
+
+
+img.logo-responsive {
 	display: none;
 }
 
-.logo-responsive {
+.menu-responsive {
 	display: none;
 }
 
