@@ -466,7 +466,6 @@ button.btn-register:hover {
 
 	.form-reg {
 		width: 100%;
-		margin-top: 4rem;
 		text-align: center;
 	}
 
@@ -512,16 +511,20 @@ button.btn-register:hover {
 		font-size: 18px;
 	}
 
+	.txt-head h1 {
+		font-size: 18px;
+	}
 
-
-
+	.form-input {
+		padding: 0 2rem;
+	}
 
 	.input input {
-		padding: 0.5rem 0.5rem;
-		border-radius: 25px;
+		padding: 1rem 1rem;
+		border-radius: 20px;
 		border: 1px solid #C4C4C4;
 		width: 100%;
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	.input-first-name {
@@ -534,17 +537,30 @@ button.btn-register:hover {
 	}
 
 	.input-password-1 {
-		margin-right: 0.25rem;
+		margin: auto;
 	}
 
 	button.btn-register {
-		width: 250px;
+		width: 100%;
 		font-size: 16px;
 
 	}
 
 	.form-input {
 		width: 100%;
+	}
+
+	.form-password {
+		flex-direction: column;
+	}
+
+	.input-password-1 {
+		margin-bottom: 1rem;
+	}
+
+	.container-check p {
+		font-size: 12px;
+		text-align: left;
 	}
 
 
