@@ -559,6 +559,24 @@ img.logo-responsive {
 		text-align: left;
 	}
 
+	.socmed-bg {
+		width: 58px;
+		height: 43px;
+		border-radius: 15px;
+	}
+
+	.socmed-bg img {
+		width: 40%;
+	}
+
+	.socmed {
+		width: 50%;
+	}
+
+	.socmed-bg .facebook-socmed {
+		width: 9px;
+		height: 19px;
+	}
 
 }
 
