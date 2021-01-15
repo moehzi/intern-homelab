@@ -348,12 +348,6 @@ button.btn-register:hover {
 	display: none;
 }
 
-
-
-img.logo-responsive {
-	display: none;
-}
-
 .menu-responsive {
 	display: none;
 }
@@ -484,6 +478,10 @@ img.logo-responsive {
 		margin-left: 1rem;
 	}
 
+	.menu-responsive {
+		display: block;
+	}
+
 	.asset-1 {
 		display: none;
 	}
@@ -496,8 +494,6 @@ img.logo-responsive {
 		width: 90%;
 		padding: 1rem;
 	}
-
-
 
 	.logo {
 		display: none;
@@ -570,7 +566,7 @@ img.logo-responsive {
 	}
 
 	.socmed {
-		width: 80%;
+		width: 90%;
 	}
 
 	.socmed-bg .facebook-socmed {
