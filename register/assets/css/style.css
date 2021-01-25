@@ -17,6 +17,10 @@ body {
 	margin: auto;
 }
 
+.logo-responsive {
+	display: none;
+}
+
 
 .asset-1 {
 	position: absolute;
